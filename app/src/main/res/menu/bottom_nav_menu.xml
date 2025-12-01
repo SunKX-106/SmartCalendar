@@ -1,0 +1,20 @@
+<menu xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    tools:context=".ui.main.MainActivity"
+    tools:ignore="MissingClass">
+
+<item
+        android:id="@+id/calendarFragment"
+        android:icon="@drawable/ic_calendar"
+        android:title="@string/nav_calendar" />
+
+    <item
+        android:id="@+id/taskListFragment"
+        android:icon="@drawable/ic_task"
+        android:title="@string/nav_tasks" />
+
+    <item
+        android:id="@+id/settingsFragment"
+        android:icon="@drawable/ic_settings"
+        android:title="@string/nav_settings" />
+</menu>
